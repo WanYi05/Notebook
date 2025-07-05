@@ -21,9 +21,22 @@ print(my_list)
 my_list.sort()
 print(my_list)
 
-print("-------------")
+# -------------
 
 people_list = ["Ken", "Justin", "William"]
 print(people_list[-1])
 print(len(people_list))
 print(people_list[0:2])
+
+"""
+List Assignment
+  - Creat a "list" of 5 animals called "zoo"
+  - Delete the animal at the "3rd index".
+  - "Append" a new animal at the end of the list
+  - "Delete" the animal at the beginning of the list.
+  - "Print" all the animals
+  - "Print" only the first 3 animals
+"""
+
+
+
