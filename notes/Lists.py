@@ -38,5 +38,17 @@ List Assignment
   - "Print" only the first 3 animals
 """
 
+zoo = ['Monkey', 'Zebra', 'Gorilla', 'Lion', 'Tiger']
+
+zoo.pop(3)
+zoo.append('Lizard')
+zoo.pop(0)
+zoo.insert(0, 'Lizard')
+print(zoo)
+
+for x in zoo:
+    print(x)
+
+print(zoo[0:3])
 
 
